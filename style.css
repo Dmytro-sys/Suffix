@@ -95,7 +95,7 @@ img {
 .burger__menu--active .burger__menu-lines::before {
     top: 0;
     transform: rotate(45deg);
-    transition: 0.1s transform ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .burger__menu--active .burger__menu-lines::after {
@@ -112,9 +112,9 @@ img {
     top: 100%;
     left: 50px;
     z-index: 15;
-    display: none;
+    visibility: hidden;
     opacity: 0;
-    transition: 0.9s all ease-out;
+    transition: 0.5s all ease-out;
 }
 
 .menu__list {
